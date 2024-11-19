@@ -5,6 +5,7 @@ class Person:
         self.age = age
         Person.people[name] = self
 
+
 def create_person_list(people: list) -> list:
     result = []
     for person in people:
